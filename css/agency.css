@@ -225,12 +225,20 @@ header.masthead .intro-text .intro-heading {
   }
 }
 
+#legends {
+  background-color: #e5e1d8;
+}
+
 #legends img {
   max-width: 100%;
 }
 
 #legends .hero {
   margin-top: 30px;
+}
+
+#info {
+  background-color: #e5e1d8;
 }
 
 #info img {
