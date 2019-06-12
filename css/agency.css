@@ -245,6 +245,18 @@ header.masthead .intro-text .intro-heading {
   max-width: 100%;
 }
 
+#videos {
+  background-color: #e5e1d8;
+}
+
+#contactUs {
+  background-color: #cbdaf2;
+}
+
+#contactUs h2 {
+  text-align: center;
+}
+
 .service-heading {
   margin: 15px 0;
   text-transform: none;
