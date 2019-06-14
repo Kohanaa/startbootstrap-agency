@@ -246,7 +246,20 @@ header.masthead .intro-text .intro-heading {
 }
 
 #videos {
-  background-color: #e5e1d8;
+  background-color: #212529;
+}
+
+#videos .carousel-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+#videos .carousel-item iframe {
+  width: 100%;
 }
 
 #contactUs {
@@ -254,6 +267,10 @@ header.masthead .intro-text .intro-heading {
 }
 
 #contactUs h2 {
+  text-align: center;
+}
+
+#contactUs p {
   text-align: center;
 }
 
