@@ -225,6 +225,41 @@ header.masthead .intro-text .intro-heading {
   }
 }
 
+.animated-rotate {
+  -webkit-transform: rotate(45deg) scale(0.5);
+  transform: rotate(45deg) scale(0.5);
+}
+
+.animated-right {
+  -webkit-transform: translateX(-100vw);
+  transform: translateX(-100vw);
+}
+
+.animated-left {
+  -webkit-transform: translateX(100vw);
+  transform: translateX(100vw);
+}
+
+.animated {
+  opacity: 0;
+}
+
+.animated.active {
+  -webkit-transform: translateX(0) scale(1) rotate(0);
+  transform: translateX(0) scale(1) rotate(0);
+  opacity: 1;
+}
+
+.animated-500 {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.animated-2000 {
+  -webkit-transition: all 2s;
+  transition: all 2s;
+}
+
 #legends {
   background-color: #e5e1d8;
 }
@@ -235,6 +270,7 @@ header.masthead .intro-text .intro-heading {
 
 #legends .hero {
   margin-top: 30px;
+  overflow: hidden;
 }
 
 #info {

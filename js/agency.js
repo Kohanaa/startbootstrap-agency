@@ -38,5 +38,14 @@
   navbarCollapse();
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
+  var elements=document.querySelectorAll(".animated");
+  window.onscroll=function(){
+    elements.forEach(function(element){
+      if(window.pageYOffset+window.innerHeight>element.offsetTop){
+      	element.classList.add("active")
+      }
+    })
+
+  }
 
 })(jQuery); // End of use strict
