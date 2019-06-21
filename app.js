@@ -15,5 +15,15 @@ app.get('/videos', function (req, res) {
     title:"videos"
   });
 });
+app.get('/PC_requirement', function (req, res) {
+  res.render('PC_requirement',{
+    title:"PC_requirement"
+  });
+});
+app.get('/octane_info', function (req, res) {
+  res.render('octane_info',{
+    title:"octane_info"
+  });
+});
 app.use(express.static("public"));
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
