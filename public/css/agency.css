@@ -299,6 +299,11 @@ header.masthead .intro-text .intro-heading {
   width: 100%;
 }
 
+#PC_requirement {
+  background-color: black;
+  padding-top: 100px;
+}
+
 #contactUs {
   background-color: #cbdaf2;
 }
