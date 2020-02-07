@@ -1,0 +1,10 @@
+{
+    "apps" : [{
+      "name"        : "apex",
+      "script"      : "node app.js",
+      "env" : {
+         "NODE_ENV": "production"
+      }
+    }]
+  }
+  
