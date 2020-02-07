@@ -2,7 +2,7 @@
   "_args": [
     [
       "@fortawesome/fontawesome-free@5.8.2",
-      "C:\\Users\\KK\\Desktop\\projects\\startbootstrap-agency"
+      "C:\\Users\\selfi\\OneDrive\\Desktop\\projects\\startbootstrap-agency"
     ]
   ],
   "_from": "@fortawesome/fontawesome-free@5.8.2",
@@ -27,7 +27,7 @@
   ],
   "_resolved": "https://registry.npmjs.org/@fortawesome/fontawesome-free/-/fontawesome-free-5.8.2.tgz",
   "_spec": "5.8.2",
-  "_where": "C:\\Users\\KK\\Desktop\\projects\\startbootstrap-agency",
+  "_where": "C:\\Users\\selfi\\OneDrive\\Desktop\\projects\\startbootstrap-agency",
   "author": {
     "name": "Dave Gandy",
     "email": "dave@fontawesome.com",
